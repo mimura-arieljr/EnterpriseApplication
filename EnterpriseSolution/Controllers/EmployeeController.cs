@@ -82,10 +82,7 @@ namespace EnterpriseSolution.Controllers
 		public IActionResult Edit(int Id)
 		{
 			var employee = _employeeService.GetById(Id);
-			if(employee == null)
-			{
-				return NotFound();
-			}
+			if (!DoesEmployeeExists(employee)) { return NotFound(); }
 			var model = new EmployeeEditViewModel()
 			{
 				Id = employee.Id,
@@ -117,11 +114,8 @@ namespace EnterpriseSolution.Controllers
 			if (ModelState.IsValid)
 			{
 				var employee = _employeeService.GetById(model.Id);
-				if (employee == null)
-				{
-					return NotFound();
-				}
-				employee.EmployeeNo = model.EmployeeNo;
+                if (!DoesEmployeeExists(employee)) { return NotFound(); }
+                employee.EmployeeNo = model.EmployeeNo;
 				employee.FirstName = model.FirstName;
 				employee.MiddleName = model.MiddleName;
 				employee.LastName = model.LastName;
@@ -151,8 +145,70 @@ namespace EnterpriseSolution.Controllers
 			return View();
 		}
 
-		private string GetDBImageURL(EmployeeCreateViewModel model)
+		[HttpGet]
+		public IActionResult Detail(int Id)
 		{
+			var employee = _employeeService.GetById(Id);
+            if (!DoesEmployeeExists(employee)) { return NotFound(); }
+            var model = new EmployeeDetailViewModel()
+			{
+				Id = employee.Id,
+				EmployeeNo = employee.EmployeeNo,
+				Gender = employee.Gender,
+				Email = employee.Email,
+				DOB = employee.DOB,
+				DateJoined = employee.DateJoined,
+				SSSNo = employee.SSSNo,
+				UnionMember = employee.UnionMember,
+				PaymentMethod = employee.PaymentMethod,
+				StudentLoan = employee.StudentLoan,
+				Address = employee.Address,
+				City = employee.City,
+				PhoneNumber = employee.PhoneNumber,
+				Designation = employee.Designation,
+				PostalCode = employee.PostalCode
+			};
+			return View(model);
+		}
+
+		[HttpGet]
+		public IActionResult Delete(int Id)
+		{
+			var employee = _employeeService.GetById(Id);
+            if (!DoesEmployeeExists(employee)) { return NotFound(); }
+			var model = new EmployeeDeleteViewModel()
+			{
+				Id = employee.Id,
+				FullName = employee.FullName
+			};
+            return View(model);
+		}
+
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public async Task<IActionResult> Delete(EmployeeDeleteViewModel model)
+		{
+			if (ModelState.IsValid)
+			{
+				await _employeeService.Delete(model.Id);
+				RedirectToAction(nameof(Index));
+			}
+			return View();
+		}
+
+
+		// Class exclusive methods
+		private bool DoesEmployeeExists(Employee employee)
+		{
+			if(employee != null)
+			{
+				return true;
+			}
+			return false;
+		}
+
+        private string GetDBImageURL(EmployeeCreateViewModel model)
+        {
             var uploadDir = @"images/employee";
             var fileName = Path.GetFileNameWithoutExtension(model.ImageURL.FileName);
             var extension = Path.GetExtension(model.ImageURL.FileName);
@@ -164,8 +220,8 @@ namespace EnterpriseSolution.Controllers
             var dbImageURL = "/" + uploadDir + "/" + fileName;
 
             return (dbImageURL);
-		}
-	}
+        }
+    }
 }
 
  
