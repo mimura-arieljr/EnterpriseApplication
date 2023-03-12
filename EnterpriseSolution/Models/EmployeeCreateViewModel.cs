@@ -38,8 +38,8 @@ namespace EnterpriseSolution.Models
         [DataType(DataType.Date), Display(Name ="Date of Birth")]
         public DateTime DOB { get; set; }
 
-        [DataType(DataType.Date), Display(Name ="Date Joined")]
-        public DateTime DateJoined { get; set; }
+        [DataType(DataType.Date), Display(Name = "Date Joined")]
+        public DateTime DateJoined { get; set; } = DateTime.UtcNow;
 
         [Required(ErrorMessage ="Job role is required"), StringLength(100)]
         public string Designation { get; set; }
