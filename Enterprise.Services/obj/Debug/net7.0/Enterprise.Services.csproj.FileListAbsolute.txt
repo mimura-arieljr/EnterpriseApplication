@@ -1,0 +1,17 @@
+/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/bin/Debug/net7.0/Enterprise.Services.deps.json
+/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/bin/Debug/net7.0/Enterprise.Services.dll
+/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/bin/Debug/net7.0/Enterprise.Services.pdb
+/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/bin/Debug/net7.0/Enterprise.Entity.dll
+/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/bin/Debug/net7.0/Enterprise.Persistence.dll
+/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/bin/Debug/net7.0/Enterprise.Entity.pdb
+/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/bin/Debug/net7.0/Enterprise.Persistence.pdb
+/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/obj/Debug/net7.0/Enterprise.Services.csproj.AssemblyReference.cache
+/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/obj/Debug/net7.0/Enterprise.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/obj/Debug/net7.0/Enterprise.Services.AssemblyInfoInputs.cache
+/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/obj/Debug/net7.0/Enterprise.Services.AssemblyInfo.cs
+/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/obj/Debug/net7.0/Enterprise.Services.csproj.CoreCompileInputs.cache
+/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/obj/Debug/net7.0/Enterprise.Services.csproj.CopyComplete
+/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/obj/Debug/net7.0/Enterprise.Services.dll
+/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/obj/Debug/net7.0/refint/Enterprise.Services.dll
+/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/obj/Debug/net7.0/Enterprise.Services.pdb
+/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/obj/Debug/net7.0/ref/Enterprise.Services.dll

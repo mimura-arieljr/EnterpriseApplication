@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{C52B6C2F-0A02-470F-B47A-128DDD2DB330}|https">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.EnterpriseSolution PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Enterprise.Services/Implementations/EmployeeService.cs">
+    <Files>
+      <File FileName="appsettings.json" Line="15" Column="1" />
+      <File FileName="../Enterprise.Services/IEmployeeService.cs" Line="12" Column="8" />
+      <File FileName="../Enterprise.Services/Implementations/EmployeeService.cs" Line="54" Column="10" />
+      <File FileName="../Enterprise.Persistence/ApplicationDbContext.cs" Line="2" Column="57" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EnterpriseSolution" expanded="True">
+            <Node name="Enterprise.Entity" expanded="True" />
+            <Node name="Enterprise.Persistence" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+            </Node>
+            <Node name="Enterprise.Services" expanded="True">
+              <Node name="Implementations" expanded="True">
+                <Node name="EmployeeService.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="EnterpriseSolution" expanded="True">
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
