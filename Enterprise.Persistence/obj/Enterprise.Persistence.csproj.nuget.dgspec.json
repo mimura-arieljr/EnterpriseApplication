@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Persistence/Enterprise.Persistence.csproj": {}
+    "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Persistence/Enterprise.Persistence.csproj": {}
   },
   "projects": {
-    "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Entity/Enterprise.Entity.csproj": {
+    "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/Enterprise.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Entity/Enterprise.Entity.csproj",
+        "projectUniqueName": "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/Enterprise.Entity.csproj",
         "projectName": "Enterprise.Entity",
-        "projectPath": "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Entity/Enterprise.Entity.csproj",
+        "projectPath": "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/Enterprise.Entity.csproj",
         "packagesPath": "/Users/arieljrmimura/.nuget/packages/",
-        "outputPath": "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Entity/obj/",
+        "outputPath": "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/arieljrmimura/.nuget/NuGet/NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Persistence/Enterprise.Persistence.csproj": {
+    "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Persistence/Enterprise.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Persistence/Enterprise.Persistence.csproj",
+        "projectUniqueName": "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Persistence/Enterprise.Persistence.csproj",
         "projectName": "Enterprise.Persistence",
-        "projectPath": "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Persistence/Enterprise.Persistence.csproj",
+        "projectPath": "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Persistence/Enterprise.Persistence.csproj",
         "packagesPath": "/Users/arieljrmimura/.nuget/packages/",
-        "outputPath": "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Persistence/obj/",
+        "outputPath": "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Persistence/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/arieljrmimura/.nuget/NuGet/NuGet.Config"
@@ -79,8 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Entity/Enterprise.Entity.csproj": {
-                "projectPath": "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Entity/Enterprise.Entity.csproj"
+              "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/Enterprise.Entity.csproj": {
+                "projectPath": "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/Enterprise.Entity.csproj"
               }
             }
           }

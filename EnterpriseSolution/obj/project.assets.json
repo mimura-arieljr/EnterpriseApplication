@@ -4292,11 +4292,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arieljrmimura/Github/EnterpriseSolution/EnterpriseSolution/EnterpriseSolution.csproj",
+      "projectUniqueName": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/EnterpriseSolution.csproj",
       "projectName": "EnterpriseSolution",
-      "projectPath": "/Users/arieljrmimura/Github/EnterpriseSolution/EnterpriseSolution/EnterpriseSolution.csproj",
+      "projectPath": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/EnterpriseSolution.csproj",
       "packagesPath": "/Users/arieljrmimura/.nuget/packages/",
-      "outputPath": "/Users/arieljrmimura/Github/EnterpriseSolution/EnterpriseSolution/obj/",
+      "outputPath": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/arieljrmimura/.nuget/NuGet/NuGet.Config"
@@ -4311,11 +4311,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Entity/Enterprise.Entity.csproj": {
-              "projectPath": "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Entity/Enterprise.Entity.csproj"
+            "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/Enterprise.Entity.csproj": {
+              "projectPath": "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/Enterprise.Entity.csproj"
             },
-            "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/Enterprise.Services.csproj": {
-              "projectPath": "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/Enterprise.Services.csproj"
+            "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Services/Enterprise.Services.csproj": {
+              "projectPath": "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Services/Enterprise.Services.csproj"
             }
           }
         }

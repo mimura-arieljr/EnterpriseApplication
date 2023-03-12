@@ -10,3 +10,15 @@
 /Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Entity/obj/Debug/net7.0/refint/Enterprise.Entity.dll
 /Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Entity/obj/Debug/net7.0/Enterprise.Entity.pdb
 /Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Entity/obj/Debug/net7.0/ref/Enterprise.Entity.dll
+/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/bin/Debug/net7.0/Enterprise.Entity.deps.json
+/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/bin/Debug/net7.0/Enterprise.Entity.dll
+/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/bin/Debug/net7.0/Enterprise.Entity.pdb
+/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/obj/Debug/net7.0/Enterprise.Entity.csproj.AssemblyReference.cache
+/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/obj/Debug/net7.0/Enterprise.Entity.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/obj/Debug/net7.0/Enterprise.Entity.AssemblyInfoInputs.cache
+/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/obj/Debug/net7.0/Enterprise.Entity.AssemblyInfo.cs
+/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/obj/Debug/net7.0/Enterprise.Entity.csproj.CoreCompileInputs.cache
+/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/obj/Debug/net7.0/Enterprise.Entity.dll
+/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/obj/Debug/net7.0/refint/Enterprise.Entity.dll
+/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/obj/Debug/net7.0/Enterprise.Entity.pdb
+/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/obj/Debug/net7.0/ref/Enterprise.Entity.dll

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Entity/Enterprise.Entity.csproj",
+      "projectUniqueName": "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/Enterprise.Entity.csproj",
       "projectName": "Enterprise.Entity",
-      "projectPath": "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Entity/Enterprise.Entity.csproj",
+      "projectPath": "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/Enterprise.Entity.csproj",
       "packagesPath": "/Users/arieljrmimura/.nuget/packages/",
-      "outputPath": "/Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Entity/obj/",
+      "outputPath": "/Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Entity/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/arieljrmimura/.nuget/NuGet/NuGet.Config"

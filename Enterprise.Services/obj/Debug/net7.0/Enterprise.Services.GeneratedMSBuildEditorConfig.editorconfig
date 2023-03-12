@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Enterprise.Services
-build_property.ProjectDir = /Users/arieljrmimura/Github/EnterpriseSolution/Enterprise.Services/
+build_property.ProjectDir = /Users/arieljrmimura/Github/EnterpriseApplication/Enterprise.Services/
