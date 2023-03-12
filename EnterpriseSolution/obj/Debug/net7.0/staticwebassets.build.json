@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8Lcn2ybQPoLxFzIOs+afbT7AQs2n52W/u/E/VUsZ1RA=",
+  "Hash": "xZiwwLgpoak85fhbtADkaKisdeafQMHtJui53IZi/cs=",
   "Source": "EnterpriseSolution",
   "BasePath": "_content/EnterpriseSolution",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/images/enterpriseLogo.png",
+      "SourceId": "EnterpriseSolution",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/",
+      "BasePath": "_content/EnterpriseSolution",
+      "RelativePath": "images/enterpriseLogo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/enterpriseLogo.png"
     },
     {
       "Identity": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/js/site.js",
