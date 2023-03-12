@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Enterprise.Persistence;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
+using Enterprise.Services;
+using Enterprise.Services.Implementations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,11 +17,12 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IEmployeeService, EmployeeService>(); 
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment()) 
 {
     app.UseMigrationsEndPoint();
 }
