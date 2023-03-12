@@ -1,0 +1,9 @@
+
+EnterpriseSolution/.vs/EnterpriseSolution/xs/project-cache/Enterprise.Services-Debug.json
+*.dll
+*.pdb
+*.cache
+*.DS_Store
+*.exe
+*.log
+*.tlog
