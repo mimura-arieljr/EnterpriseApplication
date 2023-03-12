@@ -24,6 +24,10 @@ namespace Enterprise.Entity
 
 		public string ImageURL { get; set; }
 
+		public string Email { get; set; }
+
+		public string PhoneNumber { get; set; }
+
 		public DateTime DOB { get; set; }
 
 		public DateTime DateJoined { get; set; }

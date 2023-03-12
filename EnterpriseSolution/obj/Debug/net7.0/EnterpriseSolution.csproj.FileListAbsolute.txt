@@ -120,8 +120,8 @@
 /Users/arieljrmimura/Github/EnterpriseSolution/EnterpriseSolution/obj/Debug/net7.0/ref/EnterpriseSolution.dll
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/appsettings.Development.json
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/appsettings.json
-/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/app.db
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/EnterpriseSolution.staticwebassets.runtime.json
+/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/app.db
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/EnterpriseSolution
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/EnterpriseSolution.deps.json
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/EnterpriseSolution.runtimeconfig.json
