@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
+      "Id": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
       "Id": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
