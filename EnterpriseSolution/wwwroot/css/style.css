@@ -20558,7 +20558,7 @@ input:focus {
     outline: none;
 }
 
-@font-face {
+/*@font-face {
     font-family: 'Roboto';
     src: url("http://www.urbanui.com/celestial/template/fonts/Roboto/Roboto-Light.eot");
     src: url("http://www.urbanui.com/celestial/template/fonts/Roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("http://www.urbanui.com/celestial/template/fonts/Roboto/Roboto-Light.woff2") format("woff2"), url("http://www.urbanui.com/celestial/template/fonts/Roboto/Roboto-Light.woff") format("woff"), url("http://www.urbanui.com/celestial/template/fonts/Roboto/Roboto-Light.ttf") format("truetype");
@@ -20596,7 +20596,7 @@ input:focus {
     src: url("http://www.urbanui.com/celestial/template/fonts/Roboto/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("http://www.urbanui.com/celestial/template/fonts/Roboto/Roboto-Black.woff2") format("woff2"), url("http://www.urbanui.com/celestial/template/fonts/Roboto/Roboto-Black.woff") format("woff"), url("http://www.urbanui.com/celestial/template/fonts/Roboto/Roboto-Black.ttf") format("truetype");
     font-weight: 900;
     font-style: normal;
-}
+}*/
 
 .bg-twitter {
     background: #2caae1;
@@ -29670,7 +29670,7 @@ div.tagsinput {
     .navbar .navbar-brand-wrapper .navbar-brand img {
         width: calc(255px - 130px);
         max-width: 100%;
-        height: 34px;
+        height: 70px;
         margin: auto;
         vertical-align: middle;
     }

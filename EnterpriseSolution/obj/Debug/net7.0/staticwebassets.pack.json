@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets/images/enterpriseLogo.png"
     },
     {
+      "Id": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
       "Id": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

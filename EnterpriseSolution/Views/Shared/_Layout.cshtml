@@ -14,7 +14,7 @@
     <div class="container-scroller">
         <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-                <a class="navbar-brand brand-logo"><img src="~/images/enterpriseLogo.png" alt="logo" /></a>
+                <a class="navbar-brand brand-logo"><img src="~/images/logo.png" alt="logo" /></a>
             </div>
             <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
                 <partial name="_LoginPartial" />
@@ -24,10 +24,10 @@
             <nav class="sidebar sidebar-offcanvas" id="sidebar">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#Employee" aria-expanded="false" aria-controls="ui-basic">
-                            <i class="fa-solid fa-user text-primary" style="margin-right:0.7em"></i>
+                        <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#Employee" aria-expanded="false" aria-controls="ui-basic">
+                            <i class="fa-solid fa-user text-secondary" style="margin-right:0.7em"></i>
                             <span class="menu-title">Employees</span>
-                            <i class="fa-solid fa-caret-down text-primary"></i>
+                            @*<i class="fa-solid fa-caret-down text-secondary"></i>*@
                         </a>
                         <div class="collapse" id="Employee">
                             <ul class="nav flex-column sub-menu">
@@ -38,10 +38,10 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#Payroll" aria-expanded="false" aria-controls="ui-basic">
-                            <i class="fa-sharp fa-solid fa-money-check-dollar text-primary" style="margin-right:0.7em"></i> 
+                        <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#Payroll" aria-expanded="false" aria-controls="ui-basic">
+                            <i class="fa-sharp fa-solid fa-money-check-dollar text-secondary" style="margin-right:0.7em"></i> 
                             <span class="menu-title">Payroll</span>
-                            <i class="fa-solid fa-caret-down text-primary"></i>
+                            @*<i class="fa-solid fa-caret-down text-secondary"></i>*@
                         </a>
                         <div class="collapse" id="Payroll">
                             <ul class="nav flex-column sub-menu">
