@@ -19,6 +19,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Views\Employee\" />
+  </ItemGroup>
+  <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
   </ItemGroup>
 
@@ -45,5 +48,6 @@
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\images\employee\" />
+    <Folder Include="Views\Employee\" />
   </ItemGroup>
 </Project>
