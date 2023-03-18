@@ -20952,7 +20952,7 @@ code {
 /* Footer */
 .footer {
     background: #1e1e2f;
-    padding: 0 1.875rem 1.875rem 1.875rem;
+    padding: 1rem 1.875rem 1.875rem 1.875rem;
     transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     -webkit-transition: all 0.25s ease;
@@ -23482,8 +23482,9 @@ code {
     .jsgrid .jsgrid-table .jsgrid-filter-row select, .select2-container--default select.select2-selection--single, .select2-container--default .select2-selection--single select.select2-search__field, select.typeahead,
     select.tt-query,
     select.tt-hint {
-        padding: .4375rem .75rem;
-        border: 0;
+        /*        padding: .4375rem .75rem;*/
+        padding: 0.92rem 1.375rem;
+        border: 1px solid #313452;
         outline: 0;
         color: #aaa7a7;
     }

@@ -1,0 +1,206 @@
+﻿@model EmployeeCreateViewModel
+
+<div class="col-md-12 grid-margin">
+    <div class="card">
+        <div class="card-body">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li class="breadcrumb-item"><a asp-action="Index">Employee List</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">New Employee</li>
+                </ol>
+            </nav><br /><br />
+            <form method="post" enctype="multipart/form-data" asp-action="Create">
+                <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+                <div class="form-row">
+                    <div class="form-group col-md-1">
+                        <label asp-for="EmployeeNo"></label>
+                    </div>
+                    <div class="form-group col-md-5">
+                        <input class="form-control" placeholder="EMP000" asp-for="EmployeeNo" />
+                        <span class="text-danger" asp-validation-for="EmployeeNo"></span>
+                    </div>
+
+                    <div class="form-group col-md-1">
+                        <label asp-for="DateJoined"></label>
+                    </div>
+                    <div class="form-group col-md-5">
+                        <input class="form-control" asp-for="DateJoined" />
+                        <span class="text-danger" asp-validation-for="DateJoined"></span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-3" hidden>
+                        <label asp-for="FirstName"></label>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <input class="form-control" placeholder="First Name" asp-for="FirstName" />
+                        <span class="text-danger" asp-validation-for="FirstName"></span>
+                    </div>
+
+                    <div class="form-group col-md-2" hidden>
+                        <label asp-for="MiddleName"></label>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <input class="form-control" placeholder="Middle Name" asp-for="MiddleName" />
+                        <span class="text-danger" asp-validation-for="MiddleName"></span>
+                    </div>
+
+                    <div class="form-group col-md-2" hidden>
+                        <label asp-for="LastName"></label>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <input class="form-control" placeholder="Last Name" asp-for="LastName" />
+                        <span class="text-danger" asp-validation-for="LastName"></span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-1">
+                        <label asp-for="DOB"></label>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <input class="form-control" placeholder="Date of Birth" asp-for="DOB" />
+                        <span class="text-danger" asp-validation-for="DOB"></span>
+                    </div>
+
+                    <div class="form-group col-md-1" hidden>
+                        <label asp-for="Gender"></label>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <select class="form-control" asp-for="Gender">
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group col-md-1" hidden>
+                        <label asp-for="SSSNo"></label>
+                    </div>
+                    <div class="form-group col-md-5">
+                        <input class="form-control" placeholder="Enter 9-digit SSS number" asp-for="SSSNo" />
+                        <span class="text-danger" asp-validation-for="SSSNo"></span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-1" hidden>
+                        <label asp-for="PhoneNumber"></label>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input class="form-control" placeholder="Mobile Number" asp-for="PhoneNumber" />
+                        <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+                    </div>
+
+                    <div class="form-group col-md-2" hidden>
+                        <label asp-for="Email"></label>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input class="form-control" placeholder="Email Address" asp-for="Email" />
+                        <span class="text-danger" asp-validation-for="Email"></span>
+                    </div>
+
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-2" hidden>
+                        <label asp-for="Address"></label>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <input class="form-control" placeholder="Addess" asp-for="Address" />
+                        <span class="text-danger" asp-validation-for="Address"></span>
+                    </div>
+
+                    <div class="form-group col-md-2" hidden>
+                        <label asp-for="City"></label>
+                    </div>
+                    <div class="form-group col-md-5">
+                        <input class="form-control" placeholder="City/Town" asp-for="City" />
+                        <span class="text-danger" asp-validation-for="City"></span>
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <input class="form-control" placeholder="Country"/>
+                    </div>
+                    
+                    <div class="form-group col-md-2" hidden>
+                        <label asp-for="PostalCode"></label>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <input class="form-control" placeholder="ZIP Code" asp-for="PostalCode" />
+                        <span class="text-danger" asp-validation-for="PostalCode"></span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label asp-for="PaymentMethod"></label>
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <label asp-for="StudentLoan"></label>
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <label asp-for="UnionMember"></label>
+                    </div>
+
+                </div>
+
+                <div class="form-row">
+                    <div class="form-check col-md-4">
+                        @*html.GetEnumSelectList<> returns a select list for the given argument.*@
+                        <select class="form-control" asp-for="PaymentMethod" asp-items="Html.GetEnumSelectList<Enterprise.Entity.PaymentMethod>()"></select>
+                        <span class="text-danger" asp-validation-for="PaymentMethod"></span>
+                    </div>
+
+                    <div class="form-check col-md-4">
+                        <select class="form-control" asp-for="StudentLoan" asp-items="Html.GetEnumSelectList<Enterprise.Entity.StudentLoan>()"></select>
+                        <span class="text-danger" asp-validation-for="StudentLoan"></span>
+                    </div>
+
+                    <div class="form-check col-md-4">
+                        <select class="form-control" asp-for="UnionMember" asp-items="Html.GetEnumSelectList<Enterprise.Entity.UnionMember>()"></select>
+                        <span class="text-danger" asp-validation-for="UnionMember"></span>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-2" hidden>
+                        <label asp-for="Designation"></label>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input class="form-control" placeholder="Job Designation" asp-for="Designation" />
+                        <span class="text-danger" asp-validation-for="Designation"></span>
+                    </div>
+
+                    <div class="col-md-1"></div>
+
+                    <div class="form-group col-md-1">
+                        <label asp-for="ImageURL"></label>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <div class="btn btn-icon-text">
+                            <i class="fa-solid fa-cloud-arrow-up"></i>
+                            <input type="file" value="Upload" asp-for="ImageURL" />
+                            <span class="text-danger" asp-validation-for="ImageURL"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row" style="padding-bottom:3em">
+                    @*<div class="col-md-9"></div>*@
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-rounded btn-info float-left"><i class="fa-solid fa-floppy-disk" style="margin-right:0.7em"></i>Save</button>
+                        <a class="btn btn-rounded btn-outline-info float-right" asp-action="Index"><i class="fa-solid fa-rectangle-xmark" style="margin-right:0.7em"></i>Cancel</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

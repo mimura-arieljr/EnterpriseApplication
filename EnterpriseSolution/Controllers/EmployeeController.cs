@@ -191,7 +191,7 @@ namespace EnterpriseSolution.Controllers
 			if (ModelState.IsValid)
 			{
 				await _employeeService.Delete(model.Id);
-				RedirectToAction(nameof(Index));
+				return RedirectToAction(nameof(Index));
 			}
 			return View();
 		}
