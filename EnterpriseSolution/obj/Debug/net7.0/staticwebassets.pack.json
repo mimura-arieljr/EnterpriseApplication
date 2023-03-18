@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/images/employee/20230318IMG_6140.jpeg",
+      "PackagePath": "staticwebassets/images/employee/20230318IMG_6140.jpeg"
+    },
+    {
+      "Id": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/images/employee/20230318IMG_6362.jpeg",
+      "PackagePath": "staticwebassets/images/employee/20230318IMG_6362.jpeg"
+    },
+    {
       "Id": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/images/enterpriseLogo.png",
       "PackagePath": "staticwebassets/images/enterpriseLogo.png"
     },

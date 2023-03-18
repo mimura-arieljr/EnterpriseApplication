@@ -23,7 +23,7 @@ namespace EnterpriseSolution.Models
         public string FullName
         { get
             {
-                return FirstName + " " + (string.IsNullOrEmpty(MiddleName) ? " " : (" " + (char?)(MiddleName[0]) + ".").ToUpper());
+                return FirstName + " " + (string.IsNullOrEmpty(MiddleName) ? " " : (" " + (char?)(MiddleName[0]) + ".").ToUpper()) + " " + LastName;
             }
         }
 

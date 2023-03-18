@@ -10867,6 +10867,7 @@ pre {
 
 .table-striped tbody tr:nth-of-type(odd) {
     background-color: #1e1e2f;
+    color: #ffffff;
 }
 
 .table-hover tbody tr:hover {
@@ -25511,7 +25512,7 @@ dl {
 
         .table td img, .jsgrid .jsgrid-table td img {
             width: 36px;
-            height: 36px;
+            height: 50px;
             border-radius: 100%;
         }
 
