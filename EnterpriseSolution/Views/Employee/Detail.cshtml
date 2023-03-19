@@ -10,37 +10,44 @@
                     <li class="breadcrumb-item active" aria-current="page">Employee Details</li>
                 </ol>
             </nav><br /><br />
-            <div class="wrap d-flex justify-content-start justify-content-sm-center flex-wrap">
-                <img class="rounded-circle shadow-lg" style="width:300px; height:350px; margin: 4em 3em 0 0" src="@Url.Content(Model.ImageURL)" alt="image"/>
-                <div class="wrap align-items-center ml-5">
-                    <p class="font-weight-bold text-info" style="font-size:25px">@Model.FullName</p>
-                    <p class="font-weight-normal">Role: @Model.Designation</p>
-                    <p class="font-weight-normal">Date Hired: @Model.DateJoined.ToString("MM/dd/yyyy")</p>
-                    <p class="font-weight-normal">Employee No: @Model.EmployeeNo</p>
-                    <p class="font-weight-normal">Gender: @Model.Gender</p>
-                    <p class="font-weight-normal">Birthday: @Model.DOB.ToString("MM/dd/yyyy")</p>
-                    <p class="font-weight-normal">Mobile No: @Model.PhoneNumber</p>
-                    <p class="font-weight-normal">Email: @Model.Email</p>
-                    <br /><br />
+                        <div class="wrap d-flex justify-content-start flex-wrap">
+                            <img class="shadow-lg ml-5 mb-3" style="width:270px; height:315px" src="@Url.Content(Model.ImageURL)" alt="image" />
+                            <div class="wrap align-items-center ml-5">
+                                <p class="font-weight-bold" style="font-size: 28px; color: #DCDCE0">@Model.FullName</p>
+                                <p class="font-weight-normal">@Model.Designation</p>
+                                <p class="font-weight-normal">Date Hired: @Model.DateJoined.ToString("MM/dd/yyyy")</p>
+                                <p class="font-weight-normal">Employee No: @Model.EmployeeNo</p>
 
-                    <p class="font-weight-bold">Pay and Deductions</p>
-                    <hr style="background-color:dimgray" />
-                    <p class="font-weight-normal">Payment Method: @Model.PaymentMethod</p>
-                    <p class="font-weight-normal">Student Loan: @Model.StudentLoan</p>
-                    <p class="font-weight-normal">Union Member: @Model.UnionMember</p>
-                    <p class="font-weight-normal"><i class="fa-solid fa-envelope text-info"></i><a href="mailto:@Model.Email?subject=Payslip&body=Attached herewith is your payslip for this cutoff."> Send Payslip</a></p>
-                    <br /><br />
+                                <br /><br />
 
-                    <p class="font-weight-bold">Residence</p>
-                    <hr style="background-color:dimgray" />
-                    <p class="font-weight-normal">@Model.Address</p>
-                    <p class="font-weight-normal">@Model.City</p>
-                    <p class="font-weight-normal">@Model.PostalCode</p>
-                    <br /><br />
-                </div>
-            </div>
-        </div>
-    </div>
+                                <p class="font-weight-bold">Personal Information</p>
+                                <hr style="background-color:dimgray" />
+                                <p class="font-weight-normal">Gender: @Model.Gender</p>
+                                <p class="font-weight-normal">Birthday: @Model.DOB.ToString("MM/dd/yyyy")</p>
+                                <p class="font-weight-normal">Mobile No: @Model.PhoneNumber</p>
+                                <p class="font-weight-normal">Email: @Model.Email</p>
+                                <br />
+                            </div>
+
+                            <div class="wrap d-flex justify-content-end flex-wrap">
+                                <div class="wrap align-items-center ml-5 mb-5">
+                                    <p class="font-weight-bold">Residence</p>
+                                    <hr style="background-color:dimgray" />
+                                    <p class="font-weight-normal">@Model.Address</p>
+                                    <p class="font-weight-normal">@Model.City</p>
+                                    <p class="font-weight-normal">@Model.PostalCode</p>
+                                    <br />
+
+                                    <p class="font-weight-bold">Pay and Deductions</p>
+                                    <hr style="background-color:dimgray" />
+                                    <p class="font-weight-normal">Payment Method: @Model.PaymentMethod</p>
+                                    <p class="font-weight-normal">Student Loan: @Model.StudentLoan</p>
+                                    <p class="font-weight-normal">Union Member: @Model.UnionMember</p>
+                                    <p class="font-weight-normal"><i class="fa-solid fa-envelope text-info"></i><a href="mailto:@Model.Email?subject=Payslip&body=Attached herewith is your payslip for this cutoff."> Send Payslip</a></p>
+                                    <br /><br /><br /><br />
+                                </div>
+                            </div>
+                        </div>
 </div>
 
 @section Scripts{
