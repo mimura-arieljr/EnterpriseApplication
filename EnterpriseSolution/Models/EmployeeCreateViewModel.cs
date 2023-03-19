@@ -11,13 +11,13 @@ namespace EnterpriseSolution.Models
         [Required(ErrorMessage = "Employee number is required."),RegularExpression(@"^[A-Z]{3,3}[0-9]{3}$",ErrorMessage ="Pattern must be like the placeholder."), Display(Name ="Employee Number")]
         public string EmployeeNo { get; set; }
 
-        [Required(ErrorMessage = "First name is required."),RegularExpression(@"^[A-Z][a-zA-Z""\s-.]*$", ErrorMessage ="Invalid input. Avoid special characters.."), StringLength(50), Display(Name ="First Name")]
+        [Required(ErrorMessage = "First name is required."),RegularExpression(@"^[A-Z][a-zA-Z""\s-.]*$", ErrorMessage ="Invalid input. Avoid special characters."), StringLength(50), Display(Name ="First Name")]
         public string FirstName { get; set; }
 
-        [StringLength(50), Display(Name ="Middle Name"), RegularExpression(@"^[A-Z][a-zA-Z""\s-.]*$", ErrorMessage = "Invalid input. Avoid special characters..")]
+        [StringLength(50), Display(Name ="Middle Name"), RegularExpression(@"^[A-Z][a-zA-Z""\s-.]*$", ErrorMessage = "Invalid input. Avoid special characters.")]
         public string MiddleName { get; set; }
 
-        [Required(ErrorMessage ="Last name is required."), StringLength(50), Display(Name ="Last Name"), RegularExpression(@"^[A-Z][a-zA-Z0-9 ""\s-.]*$", ErrorMessage = "Invalid input. Avoid special characters..")]
+        [Required(ErrorMessage ="Last name is required."), StringLength(50), Display(Name ="Last Name"), RegularExpression(@"^[A-Z][a-zA-Z0-9 ""\s-.]*$", ErrorMessage = "Invalid input. Avoid special characters.")]
         public string LastName { get; set; } 
 
         public string FullName

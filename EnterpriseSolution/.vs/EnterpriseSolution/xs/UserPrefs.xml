@@ -2,32 +2,42 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Employee/Index.cshtml">
+  <MonoDevelop.Ide.ItemProperties.EnterpriseSolution PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Employee/Detail.cshtml">
     <Files>
-      <File FileName="Views/Shared/_Layout.cshtml" />
-      <File FileName="Views/Employee/Index.cshtml" Line="5" Column="1" />
-      <File FileName="Models/EmployeeIndexViewModel.cs" />
-      <File FileName="Controllers/EmployeeController.cs" />
+      <File FileName="Views/Employee/Index.cshtml" Line="47" Column="62" />
+      <File FileName="wwwroot/css/style.css" Line="12010" Column="2" />
+      <File FileName="Views/Employee/Details.cshtml" Line="44" Column="7" />
+      <File FileName="Controllers/EmployeeController.cs" Line="162" Column="38" />
+      <File FileName="Models/EmployeeDetailViewModel.cs" Line="24" Column="49" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="EnterpriseSolution" expanded="True">
+          <Node name="EnterpriseSolution" expanded="True" selected="True">
             <Node name="Enterprise.Entity" expanded="True" />
+            <Node name="Enterprise.Persistence" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+            </Node>
+            <Node name="Enterprise.Services" expanded="True">
+              <Node name="Implementations" expanded="True" />
+            </Node>
             <Node name="EnterpriseSolution" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Employee" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+                <Node name="Employee" expanded="True" />
+                <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True">
                   <Node name="_Layout.cshtml" expanded="True" />
                 </Node>
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
-                <Node name="images" expanded="True" />
+                <Node name="images" expanded="True">
+                  <Node name="employee" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -38,5 +48,4 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.EnterpriseSolution PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

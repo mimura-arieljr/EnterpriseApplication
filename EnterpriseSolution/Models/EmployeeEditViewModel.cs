@@ -11,13 +11,13 @@ namespace EnterpriseSolution.Models
         [Required(ErrorMessage = "Employee number is required."), RegularExpression(@"^[A-Z]{3,3}[0-9]{3}$")]
         public string EmployeeNo { get; set; }
 
-        [Required(ErrorMessage = "First name is required."), RegularExpression(@"^[A-Z][a-zA-Z""/s-]*$"), StringLength(50), Display(Name = "First name")]
+        [Required(ErrorMessage = "First name is required."), RegularExpression(@"^[A-Z][a-zA-Z""\s-.]*$", ErrorMessage = "Invalid input. Avoid special characters."), StringLength(50), Display(Name = "First name")]
         public string FirstName { get; set; }
 
-        [StringLength(50), Display(Name = "Middle name")]
+        [StringLength(50), Display(Name = "Middle name"), RegularExpression(@"^[A-Z][a-zA-Z""\s-.]*$", ErrorMessage = "Invalid input. Avoid special characters.")]
         public string MiddleName { get; set; }
 
-        [Required(ErrorMessage = "Last name is required."), StringLength(50), Display(Name = "Last name"), RegularExpression(@"^[A-Z][a-zA-Z""/s-]*$")]
+        [Required(ErrorMessage = "Last name is required."), StringLength(50), Display(Name = "Last name"), RegularExpression(@"^[A-Z][a-zA-Z""\s-.]*$", ErrorMessage = "Invalid input. Avoid special characters.")]
         public string LastName { get; set; }
 
         public string Gender { get; set; }
@@ -25,7 +25,7 @@ namespace EnterpriseSolution.Models
         [Display(Name = "Photo")]
         public IFormFile ImageURL { get; set; }
 
-        [Display(Name = "Phone number"), RegularExpression(@"^[0-9]{11}$")]
+        [Display(Name = "Phone number"), RegularExpression(@"^[0-9]{11}$", ErrorMessage = "Invalid input.")]
         public string PhoneNumber { get; set; }
 
         [DataType(DataType.Date), Display(Name = "Date of Birth")]
@@ -34,13 +34,14 @@ namespace EnterpriseSolution.Models
         [DataType(DataType.Date), Display(Name = "Date Joined")]
         public DateTime DateJoined { get; set; }
 
-        [Required(ErrorMessage = "Job role is required"), StringLength(100)]
+        [Required(ErrorMessage = "Job role is required"), StringLength(100), RegularExpression(@"^[A-Za-z \s.-]*$", ErrorMessage = "Invalid input.")]
         public string Designation { get; set; }
 
         [DataType(DataType.EmailAddress), Display(Name = "Email Address")]
         public string Email { get; set; }
 
-        [Required, StringLength(50), Display(Name = "SSS number"), RegularExpression(@"^[0-9]{9}$")]
+        [Required, StringLength(50), Display(Name = "SSS number")]
+        [RegularExpression(@"^[0-9]{10}$", ErrorMessage = "SSS number must consist of exactly 10 digits.")]
         public string SSSNo { get; set; }
 
         [Display(Name = "Payment Method")]

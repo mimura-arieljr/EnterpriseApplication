@@ -14,7 +14,7 @@
                 </nav><br /><br />
                 <div class="row">
                     <div class="col-md-12 table-responsive-md">
-                        <a class="btn btn-xs btn-outline-success float-md-right" asp-action="Create">New Employee</a>
+                        <a class="btn btn-s btn-outline-success float-md-right" asp-action="Create">Add Employee</a>
                         <table class="table table-striped">
                             <thead>
                                 <tr>
@@ -46,9 +46,9 @@
                                         <td>@item.EmployeeCity</td>
                                         <td>@item.DateJoined.ToString("MM/dd/yy")</td>
                                         <td>
-                                            <a class="text-info" asp-action="Detail" asp-route-id="@item.Id"><i class="fa-solid fa-user text-info"></i>Detail</a>
-                                            <a class="text-success" asp-action="Edit" asp-route-id="@item.Id"><i class="fa-solid fa-pen-to-square text-success" style="padding:0.1em"></i>Edit</a>
-                                            <a class="text-danger" asp-action="Delete" asp-route-id="@item.Id"><i class="fa-solid fa-trash text-danger" style="padding:0.1em"></i>Delete</a>
+                                            @*<a class="text-info" asp-action="Detail" asp-route-id="@item.Id"><i class="fa-solid fa-user text-info"></i>Detail</a>*@
+                                            <a class="text-info" asp-action="Edit" asp-route-id="@item.Id"><i class="fa-solid fa-pen-to-square text-info" style="padding:0.1em"></i>Edit</a>
+                                            <a class="text-primary" asp-action="Delete" asp-route-id="@item.Id"><i class="fa-solid fa-trash text-primary" style="padding:0.1em"></i>Delete</a>
                                         </td>
                                     </tr>
                                 }

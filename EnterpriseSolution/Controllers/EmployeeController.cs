@@ -154,6 +154,8 @@ namespace EnterpriseSolution.Controllers
 			{
 				Id = employee.Id,
 				EmployeeNo = employee.EmployeeNo,
+				ImageURL = employee.ImageURL,
+				FullName = employee.FullName,
 				Gender = employee.Gender,
 				Email = employee.Email,
 				DOB = employee.DOB,
@@ -210,7 +212,8 @@ namespace EnterpriseSolution.Controllers
         private string GetDBImageURL(EmployeeCreateViewModel model)
         {
             var uploadDir = @"images/employee";
-            var fileName = Path.GetFileNameWithoutExtension(model.ImageURL.FileName);
+			//var fileName = Path.GetFileNameWithoutExtension(model.ImageURL.FileName);
+			var fileName = model.FirstName;
             var extension = Path.GetExtension(model.ImageURL.FileName);
             var webRootPath = _hostingEnvironment.WebRootPath;
             fileName = DateTime.UtcNow.ToString("yyyyMMdd") + fileName + extension;
