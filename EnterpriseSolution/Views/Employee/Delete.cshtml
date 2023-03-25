@@ -1,0 +1,27 @@
+﻿@model EmployeeDeleteViewModel
+
+    <div class="justify-content-center">
+        <div class="col-md-6 mt-2 text-center mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    </br>
+                    <form method="post" enctype="multipart/form-data" asp-action="Delete">
+                        <p><i class="fa-regular fa-circle-xmark text-primary fa-5x pb-5"></i></p>
+                        <p class="font-weight-bolder pb-3" style="font-size:21px">Are you sure you want to delete?</p>
+                        <input class="form-control" asp-for="FullName" readonly hidden />
+                        <span class="pb-3" style="color:#DCDCE0; font-size:18px">@Model.FullName</span>
+
+
+                        <div class="justify-content-center">
+                            <button type="submit" class="btn btn-outline-primary mx-auto mt-5 mb-3"><i class="fa-solid fa-trash text-primary"></i> Delete</button>
+                            <a class="btn btn-outline-white mx-1 mt-5 mb-3" asp-action="Index"><i class="fa-solid fa-rectangle-xmark"></i> Cancel</a>
+                        </div>
+                    </form>
+                </div>
+
+                @section Scripts{
+                    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+                }
+            </div>
+        </div>
+    </div>
