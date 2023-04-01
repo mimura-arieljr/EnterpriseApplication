@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets/images/employee/20230325Aira Mariz.jpeg"
     },
     {
+      "Id": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/images/employee/20230401.jpeg",
+      "PackagePath": "staticwebassets/images/employee/20230401.jpeg"
+    },
+    {
       "Id": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/images/enterpriseLogo.png",
       "PackagePath": "staticwebassets/images/enterpriseLogo.png"
     },
