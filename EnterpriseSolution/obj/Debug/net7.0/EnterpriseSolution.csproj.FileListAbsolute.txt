@@ -238,3 +238,6 @@
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/obj/Debug/net7.0/EnterpriseSolution.pdb
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/obj/Debug/net7.0/EnterpriseSolution.genruntimeconfig.cache
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/obj/Debug/net7.0/ref/EnterpriseSolution.dll
+/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll
