@@ -50,6 +50,9 @@ namespace Enterprise.Services.Implementations
         public PaymentRecord GetById(int id) =>
             _context.PaymentRecords.Where(p => p.Id == id).FirstOrDefault();
 
+        public TaxYear GetTaxYearById(int id) =>
+            _context.TaxYear.Where(year => year.TaxYearId == id).FirstOrDefault();
+        
 
         public decimal NetPay(decimal totalEarnings, decimal totalDeduction) =>
             totalEarnings - totalDeduction;

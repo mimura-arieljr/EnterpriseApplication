@@ -1,6 +1,7 @@
 ﻿using System;
 using Enterprise.Entity;
 using Enterprise.Persistence;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Enterprise.Services.Implementations
 {
@@ -59,6 +60,14 @@ namespace Enterprise.Services.Implementations
             return unionPayment;
         }
 
+        public IEnumerable<SelectListItem> GetAllEmployeesForPayroll()
+        {
+            return GetAll().Select(emp => new SelectListItem()
+            {
+                Text = emp.FullName,
+                Value = emp.Id.ToString()
+            }) ;
+        }
     }
 }
 

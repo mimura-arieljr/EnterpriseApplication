@@ -1,5 +1,6 @@
 ﻿using System;
 using Enterprise.Entity;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Enterprise.Services
 {
@@ -13,6 +14,7 @@ namespace Enterprise.Services
 		decimal UnionFees(int employeeId);
 		decimal LoanRepaymentAmount(int id, decimal totalAmount);
 		IEnumerable<Employee> GetAll();
+		IEnumerable<SelectListItem> GetAllEmployeesForPayroll();
 	}
 }
 

@@ -6,35 +6,51 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EnterpriseSolution.Models
 {
-    public class PaymentRecordIndexViewModel
-    {
-
+	public class PaymentRecordCreateViewModel
+	{
         public int Id { get; set; }
 
         public int EmployeeId { get; set; }
 
         public Employee Employee { get; set; }
 
-        [Display(Name ="Name")]
+        [Display(Name = "Name")]
         public string FullName { get; set; }
 
-        [Display(Name = "Pay Date")]
+        public string SSSNo { get; set; }
+
         public DateTime PayDate { get; set; }
 
-        [Display(Name = "Month")]
         public string PayMonth { get; set; }
 
         public int TaxYearId { get; set; }
 
-        public string Year { get; set; }
+        public TaxYear TaxYear { get; set; }
 
-        [Display(Name = "Total Earnings")]
+        public string TaxCode { get; set; }
+
+        public decimal HourlyRate { get; set; }
+
+        public decimal HoursWorked { get; set; }
+
+        public decimal ContractualHours { get; set; } = 176m;
+
+        public decimal ContractualEarnings { get; set; }
+
+        public decimal OvertimeEarnings { get; set; }
+
+        public decimal Tax { get; set; }
+
+        public decimal TaxContribution { get; set; }
+
+        public decimal? UnionFee { get; set; }
+
+        public Nullable<decimal> LoanContribution { get; set; }
+
         public decimal TotalEarnings { get; set; }
 
-        [Display(Name = "Total Deductions")]
         public decimal TotalDeductions { get; set; }
 
-        [Display(Name = "Net Payment")]
         public decimal NetPayment { get; set; }
     }
 }

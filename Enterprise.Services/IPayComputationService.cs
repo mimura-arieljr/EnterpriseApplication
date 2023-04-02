@@ -10,6 +10,8 @@ namespace Enterprise.Services
 
 		PaymentRecord GetById(int id);
 
+		TaxYear GetTaxYearById(int id);
+
 		IEnumerable<PaymentRecord> GetAll();
 
 		IEnumerable<SelectListItem> GetAlltaxYear();
