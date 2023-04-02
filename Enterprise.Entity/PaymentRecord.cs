@@ -18,6 +18,10 @@ namespace Enterprise.Entity
 
 		public string SSSNo { get; set; }
 
+        public string PhilHealthNo { get; set; }
+
+        public string PagIbigNo { get; set; }
+
 		public DateTime PayDate { get; set; }
 
 		public string PayMonth { get; set; }

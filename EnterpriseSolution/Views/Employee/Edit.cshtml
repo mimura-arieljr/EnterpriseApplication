@@ -79,8 +79,24 @@
                         <label asp-for="SSSNo"></label>
                     </div>
                     <div class="form-group col-md-5">
-                        <input class="form-control" placeholder="Enter 9-digit SSS number" asp-for="SSSNo" readonly style="background-color:#293043"/>
+                        <input class="form-control" placeholder="Enter 9-digit SSS number" asp-for="SSSNo" readonly style="background-color:#293043" />
                         <span class="text-danger" asp-validation-for="SSSNo"></span>
+                    </div>
+
+                    <div class="form-group col-md-1" hidden>
+                        <label asp-for="PhilHealthNo"></label>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input class="form-control" placeholder="Enter 12-digit PhilHealth number" asp-for="PhilHealthNo" />
+                        <span class="text-danger" asp-validation-for="PhilHealthNo"></span>
+                    </div>
+
+                    <div class="form-group col-md-1" hidden>
+                        <label asp-for="PagIbigNo"></label>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input class="form-control" placeholder="Enter 12-digit Pag-Ibig number" asp-for="PagIbigNo" />
+                        <span class="text-danger" asp-validation-for="PagIbigNo"></span>
                     </div>
                 </div>
 

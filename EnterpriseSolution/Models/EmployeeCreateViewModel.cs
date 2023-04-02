@@ -51,6 +51,14 @@ namespace EnterpriseSolution.Models
         [RegularExpression(@"^[0-9]{10}$", ErrorMessage ="SSS number must consist of exactly 10 digits.")]
         public string SSSNo { get; set; }
 
+        [Required(ErrorMessage = "PhilHealth number is required."), StringLength(50), Display(Name = "PhilHealth number")]
+        [RegularExpression(@"^[0-9]{12}$", ErrorMessage = "PhilHealth number must consist of exactly 12 digits.")]
+        public string PhilHealthNo { get; set; }
+
+        [Required(ErrorMessage = "Pag-Ibig number is required."), StringLength(50), Display(Name = "Pag-Ibig number")]
+        [RegularExpression(@"^[0-9]{12}$", ErrorMessage = "Pag-Ibig number must consist of exactly 12 digits.")]
+        public string PagIbigNo { get; set; }
+
         [Display(Name = "Payment Method")]
         public PaymentMethod PaymentMethod { get; set; }
 
