@@ -37,7 +37,13 @@ namespace Enterprise.Entity
 		[Required, MaxLength(50)]
 		public string SSSNo { get; set; }
 
-		[Required, MaxLength(150)]
+        [Required, MaxLength(50)]
+        public string PhilHealthNo { get; set; }
+
+        [Required, MaxLength(50)]
+        public string PagIbigNo { get; set; }
+
+        [Required, MaxLength(150)]
 		public string Address { get; set; }
 
 		[Required, MaxLength(50)]

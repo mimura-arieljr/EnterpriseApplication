@@ -43,9 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\images\" />
+    <Content Remove="wwwroot\images\employee\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
     <Folder Include="Views\Employee\" />
+    <Folder Include="wwwroot\images\employee\" />
   </ItemGroup>
 </Project>
