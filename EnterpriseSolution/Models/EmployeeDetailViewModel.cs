@@ -27,6 +27,10 @@ namespace EnterpriseSolution.Models
 
         public string SSSNo { get; set; }
 
+        public string PhilHealthNo { get; set; }
+
+        public string PagIbigNo { get; set; }
+
         public string Address { get; set; }
 
         public string City { get; set; }

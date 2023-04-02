@@ -51,6 +51,7 @@ namespace EnterpriseSolution.Controllers
 					Id = model.Id,
 					EmployeeNo = model.EmployeeNo,
 					FirstName = model.FirstName,
+					MiddleName = model.MiddleName,
 					LastName = model.LastName,
 					FullName = model.FullName,
 					Gender = model.Gender,
@@ -58,6 +59,8 @@ namespace EnterpriseSolution.Controllers
 					DOB = model.DOB,
 					DateJoined = model.DateJoined,
 					SSSNo = model.SSSNo,
+					PagIbigNo = model.PagIbigNo,
+					PhilHealthNo = model.PhilHealthNo,
 					UnionMember = model.UnionMember,
 					PaymentMethod = model.PaymentMethod,
 					Loan = model.Loan,
@@ -95,6 +98,8 @@ namespace EnterpriseSolution.Controllers
                 DOB = employee.DOB,
                 DateJoined = employee.DateJoined,
                 SSSNo = employee.SSSNo,
+				PagIbigNo = employee.PagIbigNo,
+				PhilHealthNo = employee.PhilHealthNo,
                 UnionMember = employee.UnionMember,
                 PaymentMethod = employee.PaymentMethod,
                 Loan = employee.Loan,
@@ -128,6 +133,8 @@ namespace EnterpriseSolution.Controllers
 				employee.Designation = model.Designation;
 				employee.PaymentMethod = model.PaymentMethod;
 				employee.SSSNo = model.SSSNo;
+				employee.PhilHealthNo = model.PhilHealthNo;
+				employee.PagIbigNo = model.PagIbigNo;
 				employee.Loan = model.Loan;
 				employee.UnionMember = model.UnionMember;
 				employee.PostalCode = model.PostalCode;
@@ -161,6 +168,8 @@ namespace EnterpriseSolution.Controllers
 				DOB = employee.DOB,
 				DateJoined = employee.DateJoined,
 				SSSNo = employee.SSSNo,
+				PagIbigNo = employee.PagIbigNo,
+				PhilHealthNo = employee.PhilHealthNo,
 				UnionMember = employee.UnionMember,
 				PaymentMethod = employee.PaymentMethod,
 				Loan = employee.Loan,
