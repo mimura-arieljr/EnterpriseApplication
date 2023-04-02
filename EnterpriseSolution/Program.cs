@@ -17,7 +17,10 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<IEmployeeService, EmployeeService>(); 
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+builder.Services.AddScoped<IPayComputationService, PayComputationService>();
+builder.Services.AddScoped<ISSSComputationService, SSSComputationService>();
+builder.Services.AddScoped<ITaxComputationService, TaxComputationService>();
 
 var app = builder.Build();
 

@@ -98,6 +98,76 @@ namespace EnterpriseSolution.Controllers
             ViewBag.TaxYears = _payComputationService.GetAlltaxYear();
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Detail(int id)
+        {
+            var payRecord = _payComputationService.GetById(id);
+            if(payRecord == null)
+            {
+                return NotFound();
+            }
+            var model = new PaymentRecordDetailViewModel()
+            {
+                Id = payRecord.Id,
+                EmployeeId = payRecord.EmployeeId,
+                Employee = payRecord.Employee,
+                FullName = payRecord.FullName,
+                SSSNo = payRecord.SSSNo,
+                PayDate = payRecord.PayDate,
+                PayMonth = payRecord.PayMonth,
+                TaxYearId = payRecord.TaxYearId,
+                TaxYear = payRecord.TaxYear,
+                HourlyRate = payRecord.HourlyRate,
+                HoursWorked = payRecord.HoursWorked,
+                ContractualEarnings = payRecord.ContractualEarnings,
+                ContractualHours = payRecord.ContractualHours,
+                OvertimeEarnings = payRecord.OvertimeEarnings,
+                Tax = payRecord.Tax,
+                TaxContribution = payRecord.TaxContribution,
+                UnionFee = payRecord.UnionFee,
+                LoanContribution = payRecord.LoanContribution,
+                TotalDeductions = payRecord.TotalDeductions,
+                TotalEarnings = payRecord.TotalEarnings,
+                NetPayment = payRecord.NetPayment
+            };
+            return View(model);
+        }
+
+        [HttpGet]
+        public IActionResult Payslip(int id)
+        {
+            var payRecord = _payComputationService.GetById(id);
+            if (payRecord == null)
+            {
+                return NotFound();
+            }
+            var model = new PaymentRecordDetailViewModel()
+            {
+                Id = payRecord.Id,
+                EmployeeId = payRecord.EmployeeId,
+                Employee = payRecord.Employee,
+                FullName = payRecord.FullName,
+                SSSNo = payRecord.SSSNo,
+                PayDate = payRecord.PayDate,
+                PayMonth = payRecord.PayMonth,
+                TaxYearId = payRecord.TaxYearId,
+                TaxYear = payRecord.TaxYear,
+                HourlyRate = payRecord.HourlyRate,
+                HoursWorked = payRecord.HoursWorked,
+                ContractualEarnings = payRecord.ContractualEarnings,
+                ContractualHours = payRecord.ContractualHours,
+                OvertimeEarnings = payRecord.OvertimeEarnings,
+                Tax = payRecord.Tax,
+                TaxContribution = payRecord.TaxContribution,
+                UnionFee = payRecord.UnionFee,
+                LoanContribution = payRecord.LoanContribution,
+                TotalDeductions = payRecord.TotalDeductions,
+                TotalEarnings = payRecord.TotalEarnings,
+                NetPayment = payRecord.NetPayment
+            };
+            return View(model);
+        }
     }
 }
 

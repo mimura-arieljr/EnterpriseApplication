@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <None Remove="Views\Employee\" />
+    <None Remove="Views\Pay\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
@@ -43,11 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\images\" />
-    <Content Remove="wwwroot\images\employee\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
     <Folder Include="Views\Employee\" />
-    <Folder Include="wwwroot\images\employee\" />
+    <Folder Include="Views\Pay\" />
   </ItemGroup>
 </Project>

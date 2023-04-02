@@ -1,26 +1,21 @@
 ﻿<Properties StartupConfiguration="{C52B6C2F-0A02-470F-B47A-128DDD2DB330}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.EnterpriseSolution PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.EnterpriseSolution PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Models/EmployeeEditViewModel.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="wwwroot/css/style.css" />
-      <File FileName="../Enterprise.Services/Implementations/TaxComputationService.cs" />
-      <File FileName="../Enterprise.Entity/PaymentRecord.cs" />
-      <File FileName="../Enterprise.Entity/Employee.cs" />
-      <File FileName="../Enterprise.Services/Implementations/EmployeeService.cs" />
-      <File FileName="../Enterprise.Services/IEmployeeService.cs" />
-      <File FileName="Controllers/EmployeeController.cs" />
-      <File FileName="Models/EmployeeDetailViewModel.cs" />
-      <File FileName="Models/EmployeeCreateViewModel.cs" />
-      <File FileName="Models/EmployeeEditViewModel.cs" Line="61" Column="1" />
-      <File FileName="Views/Employee/Create.cshtml" />
-      <File FileName="Views/Employee/Edit.cshtml" />
-      <File FileName="Views/Employee/Detail.cshtml" />
+      <File FileName="Controllers/PayController.cs" Line="145" Column="59" />
+      <File FileName="Controllers/EmployeeController.cs" Line="1" Column="1" />
+      <File FileName="../Enterprise.Services/Implementations/PayComputationService.cs" Line="1" Column="1" />
+      <File FileName="Views/Employee/Index.cshtml" Line="5" Column="1" />
+      <File FileName="Views/Pay/Index.cshtml" Line="45" Column="58" />
+      <File FileName="Models/PaymentRecordIndexViewModel.cs" Line="29" Column="39" />
+      <File FileName="Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="11" Column="64" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -36,17 +31,15 @@
               <Node name="Implementations" expanded="True" />
             </Node>
             <Node name="EnterpriseSolution" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Employee" expanded="True" />
                 <Node name="Home" expanded="True" />
+                <Node name="Pay" expanded="True" />
                 <Node name="Shared" expanded="True">
                   <Node name="_Layout.cshtml" expanded="True" />
                 </Node>
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
                 <Node name="images" expanded="True" />
               </Node>
             </Node>
@@ -55,4 +48,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
 </Properties>

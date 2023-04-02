@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "E0Mw78beQOHIfuOUa2cksouTtHpLGNUPNLkpv7iM0ss=",
+  "Hash": "uDj2pwxM79n2BwKHHCc0NuTNZY+/MOqgWkZnBYsu6yY=",
   "Source": "EnterpriseSolution",
   "BasePath": "_content/EnterpriseSolution",
   "Mode": "Default",
@@ -1071,6 +1071,23 @@
       "OriginalItemSpec": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/obj/Debug/net7.0/scopedcss/projectbundle/EnterpriseSolution.bundle.scp.css"
     },
     {
+      "Identity": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/.DS_Store",
+      "SourceId": "EnterpriseSolution",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/",
+      "BasePath": "_content/EnterpriseSolution",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
       "Identity": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/css/site.css",
       "SourceId": "EnterpriseSolution",
       "SourceType": "Discovered",
@@ -1105,12 +1122,12 @@
       "OriginalItemSpec": "wwwroot/css/style.css"
     },
     {
-      "Identity": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/favicon.ico",
+      "Identity": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/images/.DS_Store",
       "SourceId": "EnterpriseSolution",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/",
       "BasePath": "_content/EnterpriseSolution",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "images/.DS_Store",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1119,7 +1136,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
+      "OriginalItemSpec": "wwwroot/images/.DS_Store"
     },
     {
       "Identity": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/images/employee/20230402Ariel Jr.jpeg",
@@ -1154,6 +1171,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/enterpriseLogo.png"
+    },
+    {
+      "Identity": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/images/favicon.ico",
+      "SourceId": "EnterpriseSolution",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/",
+      "BasePath": "_content/EnterpriseSolution",
+      "RelativePath": "images/favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/favicon.ico"
+    },
+    {
+      "Identity": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/images/favicon.png",
+      "SourceId": "EnterpriseSolution",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/",
+      "BasePath": "_content/EnterpriseSolution",
+      "RelativePath": "images/favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/favicon.png"
     },
     {
       "Identity": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/images/logo.png",

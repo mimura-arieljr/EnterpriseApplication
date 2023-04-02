@@ -26,6 +26,8 @@ namespace EnterpriseSolution.Models
 
         public int TaxYearId { get; set; }
 
+        public int TaxYear { get; set; }
+
         public string Year { get; set; }
 
         [Display(Name = "Total Earnings")]
