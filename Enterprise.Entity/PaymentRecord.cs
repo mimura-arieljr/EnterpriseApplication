@@ -36,6 +36,9 @@ namespace Enterprise.Entity
         public decimal HoursWorked { get; set; }
 
         [Column(TypeName = "decimal(18,2)")]
+        public decimal OvertimeHours { get; set; }
+
+        [Column(TypeName = "decimal(18,2)")]
         public decimal ContractualHours { get; set; }
 
         [Column(TypeName = "money")]

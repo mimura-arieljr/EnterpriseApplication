@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Wc5WtY+RJ4Byd/opNOhLBtsDMHuIk1S9JardtcCxSxQ=",
+  "Hash": "Pw98NZvjmWx/dyY3V4wbto4zuYZGx3xHOSYQKqPHTL4=",
   "Source": "EnterpriseSolution",
   "BasePath": "_content/EnterpriseSolution",
   "Mode": "Default",
@@ -1171,6 +1171,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/employee/20230401.jpeg"
+    },
+    {
+      "Identity": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/images/employee/20230402.jpeg",
+      "SourceId": "EnterpriseSolution",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/",
+      "BasePath": "_content/EnterpriseSolution",
+      "RelativePath": "images/employee/20230402.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/employee/20230402.jpeg"
     },
     {
       "Identity": "/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/wwwroot/images/enterpriseLogo.png",
