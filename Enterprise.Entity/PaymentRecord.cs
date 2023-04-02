@@ -54,7 +54,7 @@ namespace Enterprise.Entity
         public decimal? UnionFee { get; set; }
 
         [Column(TypeName = "money")]
-        public Nullable<decimal> StudentLoanContribution { get; set; }
+        public Nullable<decimal> LoanContribution { get; set; }
 
         [Column(TypeName = "money")]
         public decimal TotalEarnings { get; set; }
