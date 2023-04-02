@@ -45,7 +45,7 @@ namespace Enterprise.Services.Implementations
             await _context.SaveChangesAsync();
         }
 
-        public decimal StudentLoadnRepaymentAmount(int id, decimal totalAmount)
+        public decimal LoanRepaymentAmount(int id, decimal totalAmount)
         {
             throw new NotImplementedException();
         }

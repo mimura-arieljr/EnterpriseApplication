@@ -135,6 +135,7 @@
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.UI.dll
+/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Microsoft.AspNetCore.JsonPatch.dll
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Microsoft.Data.Sqlite.dll
@@ -160,6 +161,8 @@
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/SQLitePCLRaw.core.dll
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/SQLitePCLRaw.provider.e_sqlite3.dll
@@ -238,6 +241,3 @@
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/obj/Debug/net7.0/EnterpriseSolution.pdb
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/obj/Debug/net7.0/EnterpriseSolution.genruntimeconfig.cache
 /Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/obj/Debug/net7.0/ref/EnterpriseSolution.dll
-/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Microsoft.AspNetCore.JsonPatch.dll
-/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Newtonsoft.Json.dll
-/Users/arieljrmimura/Github/EnterpriseApplication/EnterpriseSolution/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll

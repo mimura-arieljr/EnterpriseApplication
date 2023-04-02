@@ -1,6 +1,6 @@
 ﻿namespace Enterprise.Entity
 {
-    public enum StudentLoan
+    public enum Loan
     {
         Yes,
         No

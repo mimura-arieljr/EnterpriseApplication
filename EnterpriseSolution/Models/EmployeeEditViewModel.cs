@@ -47,8 +47,8 @@ namespace EnterpriseSolution.Models
         [Display(Name = "Payment Method")]
         public PaymentMethod PaymentMethod { get; set; }
 
-        [Display(Name = "Student loan?")]
-        public StudentLoan StudentLoan { get; set; }
+        [Display(Name = "PhilHealth/Pag-Ibig loan?")]
+        public Loan Loan { get; set; }
 
         [Display(Name = "Union member?")]
         public UnionMember UnionMember { get; set; }

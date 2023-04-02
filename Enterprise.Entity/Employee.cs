@@ -50,7 +50,7 @@ namespace Enterprise.Entity
 
 		public PaymentMethod PaymentMethod { get; set; }
 
-		public StudentLoan StudentLoan { get; set; }
+		public Loan Loan { get; set; }
 
 		public UnionMember UnionMember { get; set; }
 	}

@@ -11,7 +11,7 @@ namespace Enterprise.Services
 		Task UpdateAsync(Employee employee); // Updates employee
 		Task UpdateAsync(int employeeId); // Updates employee by unique ID
 		decimal UnionFees(int employeeId);
-		decimal StudentLoadnRepaymentAmount(int id, decimal totalAmount);
+		decimal LoanRepaymentAmount(int id, decimal totalAmount);
 		IEnumerable<Employee> GetAll();
 	}
 }

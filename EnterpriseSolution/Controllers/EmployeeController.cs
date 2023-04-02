@@ -60,7 +60,7 @@ namespace EnterpriseSolution.Controllers
 					SSSNo = model.SSSNo,
 					UnionMember = model.UnionMember,
 					PaymentMethod = model.PaymentMethod,
-					StudentLoan = model.StudentLoan,
+					Loan = model.Loan,
 					Address = model.Address,
 					City = model.City,
 					PhoneNumber = model.PhoneNumber,
@@ -97,7 +97,7 @@ namespace EnterpriseSolution.Controllers
                 SSSNo = employee.SSSNo,
                 UnionMember = employee.UnionMember,
                 PaymentMethod = employee.PaymentMethod,
-                StudentLoan = employee.StudentLoan,
+                Loan = employee.Loan,
                 Address = employee.Address,
                 City = employee.City,
                 PhoneNumber = employee.PhoneNumber,
@@ -128,7 +128,7 @@ namespace EnterpriseSolution.Controllers
 				employee.Designation = model.Designation;
 				employee.PaymentMethod = model.PaymentMethod;
 				employee.SSSNo = model.SSSNo;
-				employee.StudentLoan = model.StudentLoan;
+				employee.Loan = model.Loan;
 				employee.UnionMember = model.UnionMember;
 				employee.PostalCode = model.PostalCode;
 				employee.PhoneNumber = model.PhoneNumber;
@@ -163,7 +163,7 @@ namespace EnterpriseSolution.Controllers
 				SSSNo = employee.SSSNo,
 				UnionMember = employee.UnionMember,
 				PaymentMethod = employee.PaymentMethod,
-				StudentLoan = employee.StudentLoan,
+				Loan = employee.Loan,
 				Address = employee.Address,
 				City = employee.City,
 				PhoneNumber = employee.PhoneNumber,
