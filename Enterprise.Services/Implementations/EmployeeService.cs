@@ -47,12 +47,16 @@ namespace Enterprise.Services.Implementations
 
         public decimal LoanRepaymentAmount(int id, decimal totalAmount)
         {
-            throw new NotImplementedException();
+            var employee = GetById(id);
+            decimal loanPayment = (employee.Loan == Loan.Yes) ? totalAmount * 0.1m : totalAmount;
+            return loanPayment;
         }
 
         public decimal UnionFees(int id)
         {
-            throw new NotImplementedException();
+            var employee = GetById(id);
+            decimal unionPayment = (employee.UnionMember == UnionMember.Yes) ? 200 : 0;
+            return unionPayment;
         }
 
     }

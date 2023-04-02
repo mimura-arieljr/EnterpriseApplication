@@ -74,8 +74,8 @@ namespace Enterprise.Services.Implementations
             hourlyRate * 1.1m;
 
 
-        public decimal TotalDeductions(decimal tax, decimal sss, decimal studentLoanPayment, decimal unionPayment) =>
-            tax + sss + studentLoanPayment + unionPayment;
+        public decimal TotalDeductions(decimal tax, decimal sss, decimal LoanPayment, decimal unionPayment) =>
+            tax + sss + LoanPayment + unionPayment;
 
         public decimal TotalEarnings(decimal overtimeEarnings, decimal contractualEarnings) =>
             overtimeEarnings + contractualEarnings;
